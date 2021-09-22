@@ -1,0 +1,2 @@
+RSATRAY.spec
+pyinstaller --onefile --noconsole --icon=lock.ico --hidden-import=pkg_resources --hidden-import=infi.systray --debug all RSATRAY.py& c:/CODE/Tools/sql/.venv/Scripts/python.exe c:/CODE/Tools/sql/CLLI_LOOKUP.py
